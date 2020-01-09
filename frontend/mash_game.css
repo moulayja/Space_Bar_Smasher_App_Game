@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+/* .timer_div {
+	width: 100%;
+	position:relative;
+	left: 0px;
+	bottom: 0px;
+	animation:slide_in_from_top 1s 1;
+} */
+
+.timer_header {
+	font-family: 'Black Ops One';
+	font-size: 7em;
+	color: white;
+	margin: 1% auto auto auto;
+	padding: 0 0 0 0;
+	text-align: center;
+	width: 30%;
+	position:relative;
+	left: 0px;
+	bottom: 0px;
+	background-image: linear-gradient( rgb(50, 50, 50, 0.75) 10%,rgb(0, 0, 0, 0.75) 90%);
+	border-radius: 30px 30px 0px 0px;
+	border: 2px solid white;
+	animation:slide_in_from_top .25s 1;
+}
+
+@keyframes slide_in_from_top
+{
+	0%   {top: -250px; opacity: 0;}
+	100% {top: 0px; opacity: 1;}
+}
+
+.timer_counter {
+	font-family: 'Audiowide';
+	font-size: 17em;
+	color: yellow;
+	margin: auto;
+	text-align: center;
+	padding: 0 0 0 0;
+	width: 30%;
+	position:relative;
+	left: 0px;
+	background-image: linear-gradient( rgb(50, 50, 50, 0.75) 10%,rgb(0, 0, 0, 0.75) 90%);
+	border-radius: 0px 0px 0px 0px;
+	border: 2px solid white;
+	animation:slide_in_from_top2 .25s 1;
+}
+
+@keyframes slide_in_from_top2
+{
+	0%   {top: -250px; opacity: 0;}
+	100% {top: 0px; opacity: 1;}
+}
+
+.key_press_div {
+	font-family: 'Black Ops One';
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 0 0;
+	width: 30%;
+	background-image: linear-gradient( rgb(50, 50, 50, 0.75) 10%,rgb(0, 0, 0, 0.75) 90%);
+	border-radius: 0px 0px 0px 0px;
+	border: 2px solid white;
+	position:relative;
+	right: 0px;
+	animation:slide_in_from_right .25s 1;
+}
+
+@keyframes slide_in_from_right
+{
+	0%   {right: -250px; opacity: 0;}
+	100% {right: 0px; opacity: 1;}
+}
+
+.key_press_header {
+	margin: auto;
+	padding: 0 0 0 0;
+	color: white;
+	font-size: 25pt;
+}
+
+.key_press_counter {
+	font-family: 'Audiowide';
+	color: yellow;
+	margin: auto;
+	padding: 0 0 0 0;
+	font-size: 60pt;
+	text-align: center;
+}
+
+.message_div {
+	margin: auto;
+	text-align: center;
+	padding: 0 0 0 0;
+	width: 30%;
+	background-image: linear-gradient( rgb(50, 50, 50, 0.75) 10%,rgb(0, 0, 0, 0.75) 90%);
+	border-radius: 0px 0px 0px 0px;
+	border: 2px solid white;
+	position:relative;
+	left: 0px;
+	animation:slide_in_from_left .25s 1;
+}
+
+@keyframes slide_in_from_left
+{
+	0%   {left: -250px; opacity: 0;}
+	100% {left: 0px; opacity: 1;}
+}
+
+.message_header {
+	font-family: 'Black Ops One';
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+	color: white;
+	font-size: 25pt;
+}
+
+.message_rank {
+	font-family: 'Audiowide';
+	width: 75%;
+	height: 50px;
+	border-radius: 30px;
+	margin: 0 auto 0.5em auto;
+	padding: 0 0 0 0;
+	color: yellow;
+	font-size: 15pt;
+	text-align: center;
+	background: #000;
+}
+
+.space_bar_div {
+	border-radius: 15px;
+	width: 50%;
+	height: 10%;
+	margin: auto auto 1% auto;
+	padding: 0 0 0 0;
+}
+
+.space_bar_button {
+	font-family: 'Black Ops One';
+	width: 100%;
+	height: 100%;
+	font-size: 40pt;
+	border-radius: 15px;
+	background-color: lightgrey;
+	text-align: center;
+	animation: slide_in_from_left2 1s 1;
+}
+
+@keyframes slide_in_from_left2
+{
+	0%   {left: -100px; opacity: 0;}
+	100% {left: 0px; opacity: 1;}
+}
+
+.bottom_button_div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	bottom: 0;
+	position: relative;
+	animation: slide_in_from_bottom4 1s 1;
+}
+
+@keyframes slide_in_from_bottom4
+{
+	0%   {bottom: -100px; opacity: 0;}
+	100% {bottom: 0px; opacity: 1;}
+}
+
+.main_menu_button {
+	border: 1px double white;
+	font-family: 'Wallpoet', cursive;
+	color: yellow;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	width: 30%;
+	height: 2em;
+	font-size: 4em;
+	border-radius: 30px 0px 0px 30px;
+	background-color: transparent;
+}
+
+.main_menu_button:hover {
+	color: orangered;
+	animation: blinker_hover2 .75s ease-in-out infinite;
+}
+
+@keyframes blinker_hover2 {
+  50% {
+    transform: matrix3d(
+      1,0,0,0.0005,
+      0,1,0,0,
+      0,0,1,0,
+      0,0,0,1
+    );
+  }
+}
+
+.play_again_button {
+
+	border: 1px double white;
+	font-family: 'Wallpoet', cursive;
+	color: yellow;
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+	width: 30%;
+	height: 2em;
+	font-size: 4em;
+	border-radius: 0px 30px 30px 0px;
+	background-color: transparent;
+
+}
+
+.play_again_button:hover {
+	color: orangered;
+	animation: blinker_hover3 .75s ease-in-out infinite;
+}
+
+@keyframes blinker_hover3 {
+  50% {
+    transform: matrix3d(
+      1,0,0,-0.0005,
+      0,1,0,0,
+      0,0,1,0,
+      0,0,0,1
+    );
+	/* transition: all 10s ease-in-out 10s; */
+  }
+}
+
+.submit_form {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	bottom: 0;
+	position: relative;
+	animation: slide_in_from_bottom2 1s 1;
+}
+
+@keyframes slide_in_from_bottom2
+{
+	0%   {bottom: -100px; opacity: 0;}
+	100% {bottom: 0px; opacity: 1;}
+}
+
+
+.submit_input {
+
+	border: 1px double white;
+	font-family: 'Wallpoet', cursive;
+	color: rgb(50, 50, 50, 1);
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	width: 30%;
+	height: 4em;
+	font-size: 2em;
+	background-color: linear-gradient( rgb(200, 200, 200, 1) 10%,rgb(100, 100, 10, 1) 90%);;
+
+}
+
+.submit_button {
+	font-family: 'Wallpoet', cursive;
+	color: yellow;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	/* width: 30%; */
+	height: 2em;
+	font-size: 4em;
+  	background-image: linear-gradient( rgb(0, 0, 0, 1) 10%,rgb(0, 0, 0, 1) 90%);
+	border-radius: 0px 30px 30px 0px;
+	border: 2px solid white;
+}
+
+.submit_button:hover {
+	color: orangered;
+	animation: blinker_hover4 .75s ease-in-out infinite;
+}
+
+@keyframes blinker_hover4 {
+  50% {
+    transform: matrix3d(
+      1,0,0,-0.0005,
+      0,1,0,0,
+      0,0,1,0,
+      0,0,0,1
+    );
+	/* transition: all 10s ease-in-out 10s; */
+  }
+}
+
+.submit_cancel {
+	font-family: 'Wallpoet', cursive;
+	color: yellow;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	/* width: 30%; */
+	height: 2em;
+	font-size: 4em;
+  	background-image: linear-gradient( rgb(0, 0, 0, 1) 10%,rgb(0, 0, 0, 1) 90%);
+	border-radius: 30px 0px 0px 30px;
+	border: 2px solid white;
+}
+
+.submit_cancel:hover {
+	color: orangered;
+	animation: blinker_hover30 .75s ease-in-out infinite;
+}
+
+@keyframes blinker_hover30 {
+  50% {
+    transform: matrix3d(
+      1,0,0,0.0005,
+      0,1,0,0,
+      0,0,1,0,
+      0,0,0,1
+    );
+  }
+}
+
+.submit_cancel_selected {
+	font-family: 'Wallpoet', cursive;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 2em;
+	font-size: 4em;
+  	background-image: linear-gradient( rgb(0, 0, 0, 1) 10%,rgb(0, 0, 0, 1) 90%);
+	border-radius: 30px 0px 0px 30px;
+	border: 2px solid white;
+	color: orangered;
+	animation: blinker_hover31 .75s ease-in-out infinite;
+}
+
+@keyframes blinker_hover31 {
+  50% {
+    transform: matrix3d(
+      1,0,0,0.0005,
+      0,1,0,0,
+      0,0,1,0,
+      0,0,0,1
+    );
+  }
+}
+
+.game_over_text {
+	font-family: 'Black Ops One', cursive;
+	animation-duration: 3s;
+	animation-delay: 500ms;
+	animation-iteration-count: infinite;
+	color: red;
+	font-size: 90pt;
+}
+
+input:focus {
+	/* background-color: yellow; */
+}
+
+.scoreboard_header {
+	font-family: 'Black Ops One', cursive;
+	animation-duration: 3s;
+	animation-delay: 500ms;
+	animation-iteration-count: infinite;
+	color: white;
+	font-size: 40pt;
+}
+
