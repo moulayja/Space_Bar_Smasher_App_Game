@@ -11,9 +11,12 @@ Final Version
 
 
 ## Project Description
-
+#### Overview:
 This project focused on a SPA (Single Page App) by using vanilla JavaScript.
-It is a game that makes the user play using the space bar, the faster he clicks the timer goes fast, at the end of playing, the game goes over and let you type your nickname, then it'll render the top 10 players' score, if he had a great score, his will show up otherwise he can play again 
+It is a game that makes the user play using the space bar, the faster he clicks the timer goes fast, at the end of playing, the game goes over and let you type your nickname, then it'll render the top 10 players' score, if he had a great score, his will show up otherwise he can play again.
+#### Challenges:
+Nested Fetching, instead of using React, this project made sure to focus on fetching.
+
 
 ## Technologies
 - Vanilla Javascript for the Front-end
