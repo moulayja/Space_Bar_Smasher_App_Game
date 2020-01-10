@@ -32,7 +32,7 @@ Please make sure to update the tests as appropriate.
    ```
 3. inside the backend file:
 
- ```bash
+   ```bash
       rails db:reset && rails s -p 3000
    ```
 4. Now you go to the frontend file and open the ( index.html ) file
