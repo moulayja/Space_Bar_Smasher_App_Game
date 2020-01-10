@@ -8,7 +8,11 @@ Final Version
 ## App Preview
 [Click here for demo preview with explanation](https://youtu.be/7OdwSL0NaTM)
 
-
+## Collaborators
+| Name | Github Page |
+| --- | --- |
+| Jamal Farah | [Profile Page](https://github.com/moulayja) |
+| Austin Smith |  |
 
 ## Project Description
 #### Overview:
@@ -41,3 +45,4 @@ Please make sure to update the tests as appropriate.
 4. Now you go to the frontend file and open the ( index.html ) file
 
 5. enjoy playing the game
+
