@@ -41,4 +41,3 @@ Please make sure to update the tests as appropriate.
 4. Now you go to the frontend file and open the ( index.html ) file
 
 5. enjoy playing the game
-
