@@ -2,6 +2,13 @@
 
 Web Game App by smashing the spacebar to hit the highest score
 
+## Table of Contents
+- [App Preview](#app_preview)
+- [Collaborators](#collaborators)
+- [Project Description]
+- [Technologies]
+- [Getting Started]
+
 #### Project Status: [Completed]
 Final Version
 
@@ -12,7 +19,7 @@ Final Version
 | Name | Github Page |
 | --- | --- |
 | Jamal Farah | [Profile Page](https://github.com/moulayja) |
-| Austin Smith |  |
+
 
 ## Project Description
 #### Overview:
@@ -40,7 +47,7 @@ Please make sure to update the tests as appropriate.
 3. inside the backend file:
 
    ```bash
-      rails db:reset && rails s -p 3000
+      $rails db:reset && rails s -p 3000
    ```
 4. Now you go to the frontend file and open the ( index.html ) file
 
