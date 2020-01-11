@@ -1,9 +1,11 @@
-# Space Bar Smasher | Game App
+# Space Bar Smasher - Game App
 
 This Game will let you hit the spacebar to score higher. 
 So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to break your keyboard :)
 
+
 ## Table of Contents
+
 - [App Preview](#app-preview)
 - [Collaborators](#collaborators)
 - [Project Description](#project-description)
@@ -46,7 +48,7 @@ Nested Fetching, instead of using React, this project made sure to focus on fetc
    ```bash
       $cd backend
    ```
-3. inside the backend file:
+3. Inside the backend file:
 
    ```bash
       $rails db:reset && rails s -p 3000
