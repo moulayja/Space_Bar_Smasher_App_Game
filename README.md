@@ -1,19 +1,20 @@
-# Space Bar Smasher Game
+# Space Bar Smasher | Game App
 
-Web Game App by smashing the spacebar to hit the highest score
+This Game will let you hit the spacebar to score higher. 
+So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to break your keyboard :)
 
 ## Table of Contents
 - [App Preview](#app_preview)
 - [Collaborators](#collaborators)
-- [Project Description]
-- [Technologies]
-- [Getting Started]
+- [Project Description](#project_description)
+- [Technologies](#technologies)
+- [Getting Started](#getting_started)
 
 #### Project Status: [Completed]
 Final Version
 
 ## App Preview
-[Click here for demo preview with explanation](https://youtu.be/7OdwSL0NaTM)
+[For a full demo, click here](https://youtu.be/7OdwSL0NaTM)
 
 ## Collaborators
 | Name | Github Page |
@@ -23,8 +24,10 @@ Final Version
 
 ## Project Description
 #### Overview:
-This project focused on a SPA (Single Page App) by using vanilla JavaScript.
-It is a game that makes the user play using the space bar, the faster he clicks the timer goes fast, at the end of playing, the game goes over and let you type your nickname, then it'll render the top 10 players' score, if he had a great score, his will show up otherwise he can play again.
+
+The idea is to implement a simple single-page application (SPA) using the vanilla JavaScript script.  
+This game lets the player hit the space bar in a small frame of time, the faster he clicks, the closer to breaking previous players' record.
+When the game is over it'll allow you to type your nickname, then it'll render the list of top 10 scores, otherwise, it'll ask you to play again or to go to the main page.
 #### Challenges:
 Nested Fetching, instead of using React, this project made sure to focus on fetching.
 
@@ -32,24 +35,23 @@ Nested Fetching, instead of using React, this project made sure to focus on fetc
 ## Technologies
 - Vanilla Javascript for the Front-end
 - Rails API for the Back-end
+- PostgreSQL as a backend Database-API
 - Fetching data to the backend
 - Plain CSS, No Frameworks
 - Animate.CSS for animations
 
-Please make sure to update the tests as appropriate.
-
 ## Getting Started
-1. Clone this repo.
-2. cd to the backend file and do this:
+1. Clone this repo
+2. Cd to the backend file and do this:
    ```bash
-      cd backend
+      $cd backend
    ```
 3. inside the backend file:
 
    ```bash
       $rails db:reset && rails s -p 3000
    ```
-4. Now you go to the frontend file and open the ( index.html ) file
+4. Now you can go to the frontend file and open the ( index.html ) file
 
-5. enjoy playing the game
+5. Enjoy the game
 
