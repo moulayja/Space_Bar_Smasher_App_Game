@@ -4,11 +4,11 @@ This Game will let you hit the spacebar to score higher.
 So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to break your keyboard :)
 
 ## Table of Contents
-- [App Preview](#app_preview)
+- [App Preview](#app-preview)
 - [Collaborators](#collaborators)
-- [Project Description](#project_description)
+- [Project Description](#project-description)
 - [Technologies](#technologies)
-- [Getting Started](#getting_started)
+- [Getting Started](#getting-started)
 
 #### Project Status: [Completed]
 Final Version
