@@ -3,6 +3,10 @@
 This Game will let you hit the spacebar to score higher. 
 So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to break your keyboard :)
 
+![jamalino](https://img.shields.io/badge/Project%20Status-Completed-brightgreen?style=for-the-badge&logo=appveyor
+)
+
+![jamalino](https://img.shields.io/badge/Completion-100%25-blue)
 
 ## Table of Contents
 
@@ -12,7 +16,8 @@ So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to 
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 
-#### Project Status: [Completed]
+
+
 Final Version
 
 ## App Preview
