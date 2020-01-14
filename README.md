@@ -62,10 +62,8 @@ Nested Fetching, instead of using React, this project made sure to focus on fetc
 
 5. Enjoy the game
 
-![jamalino](https://i.ibb.co/T07mCt5/logo.png)
-
 
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="460" height="300" src="https://i.ibb.co/T07mCt5/logo.png">
 </p>
 
