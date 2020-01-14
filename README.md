@@ -1,11 +1,11 @@
-# Space Bar Smasher - Game App
+# Space Bar Smasher - [![jamalino](https://img.shields.io/badge/Game-App-orange?style=for-the-badge)](https://github.com/moulayja/)
+
 
 This Game will let you hit the spacebar to score higher. 
 So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to break your keyboard :)
 
 [![jamalino](https://img.shields.io/badge/Project%20Status-Completed-brightgreen?style=for-the-badge&logo=appveyor
 )](https://github.com/moulayja/)
-[![jamalino](https://img.shields.io/badge/Game-App-orange?style=for-the-badge)](https://github.com/moulayja/)
 
 [![jamalino](https://img.shields.io/badge/Completion-100%25-blue)](https://github.com/moulayja/Space_Bar_Smasher_App_Game)
 
