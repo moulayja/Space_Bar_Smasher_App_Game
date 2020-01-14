@@ -16,10 +16,6 @@ So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to 
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 
-
-
-Final Version
-
 ## App Preview
 [For a full demo, click here](https://youtu.be/7OdwSL0NaTM)
 
