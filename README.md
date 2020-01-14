@@ -62,3 +62,5 @@ Nested Fetching, instead of using React, this project made sure to focus on fetc
 
 5. Enjoy the game
 
+![jamalino](https://i.ibb.co/T07mCt5/logo.png)
+
