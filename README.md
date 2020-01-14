@@ -1,5 +1,4 @@
-# Space Bar Smasher 
-# [![jamalino](https://img.shields.io/badge/Game-App-orange?style=for-the-badge)](https://github.com/moulayja/)
+# Space Bar Smasher     [![jamalino](https://img.shields.io/badge/Game-App-orange?style=for-the-badge)](https://github.com/moulayja/)
 
 
 This Game will let you hit the spacebar to score higher. 
