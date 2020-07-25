@@ -19,7 +19,7 @@ So, how many times can you press the spacebar in 5,10 or 30 seconds? Try not to 
 - [Getting Started](#getting-started)
 
 ## App Preview
-[For a full demo, click here](https://youtu.be/7OdwSL0NaTM)
+[For a full demo, click here](https://spacebar-smash.herokuapp.com/)
 
 ## Collaborators
 | Name | Github Page |
